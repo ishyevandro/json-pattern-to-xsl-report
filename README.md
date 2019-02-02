@@ -17,38 +17,117 @@ The project will be in PHP.
       "name": "sheet 1",
       "config": {
         "fields": [
-          "field_1",
-          "field_2",
-          "field_3",
-          "field_4"
+          {
+            "name": "First field",
+            "position": "1",
+            "type": "string",
+            "json_row_key": "a"
+          },
+          {
+            "name": "Second field",
+            "position": "2",
+            "type": "string",
+            "json_row_key": "b"
+          },
+          {
+            "name": "Third field",
+            "position": "3",
+            "type": "string",
+            "json_row_key": "c"
+          },
+          {
+            "name": "Fourth field",
+            "position": "4",
+            "type": "string",
+            "json_row_key": "d"
+          }
         ],
         "first_column": "A",
         "header_line": 1
       },
       "data": [
-        ["l_1_f_1", "l_1_f_2", "l_1_f_3", "l_1_f_4"],
-        ["l_2_f_1", "l_2_f_2", "l_2_f_3", "l_2_f_4"],
-        ["l_3_f_1", "l_3_f_2", "l_3_f_3", "l_3_f_4"],
-        ["l_4_f_1", "l_4_f_2", "l_4_f_3", "l_4_f_4"],
-        ["l_5_f_1", "l_5_f_2", "l_5_f_3", "l_5_f_4"],
-        ["l_6_f_1", "l_6_f_2", "l_6_f_3", "l_6_f_4"],
-        ["l_7_f_1", "l_7_f_2", "l_7_f_3", "l_7_f_4"],
-        ["l_8_f_1", "l_8_f_2", "l_8_f_3", "l_8_f_4"]
+        {
+          "a": "l_1_f_1", 
+          "b": "l_1_f_2", 
+          "c": "l_1_f_3", 
+          "d": "l_1_f_4"
+        },
+        {
+          "a": "l_2_f_1", 
+          "b": "l_2_f_2", 
+          "c": "l_2_f_3", 
+          "d": "l_2_f_4"
+        },
+        {
+          "c": "l_3_f_3", 
+          "a": "l_3_f_1", 
+          "b": "l_3_f_2", 
+          "d": "l_3_f_4"
+        },
+        {
+          "a": "l_4_f_1", 
+          "b": "l_4_f_2", 
+          "c": "l_4_f_3", 
+          "d": "l_4_f_4"
+        },
+        {
+          "a": "l_5_f_1", 
+          "b": "l_5_f_2", 
+          "c": "l_5_f_3", 
+          "d": "l_5_f_4"
+        },
+        {
+          "a": "l_6_f_1", 
+          "b": "l_6_f_2", 
+          "c": "l_6_f_3", 
+          "d": "l_6_f_4"
+        },
+        {
+          "a": "l_7_f_1", 
+          "b": "l_7_f_2", 
+          "c": "l_7_f_3", 
+          "d": "l_7_f_4"
+        },
+        {
+          "a": "l_8_f_1", 
+          "b": "l_8_f_2", 
+          "c": "l_8_f_3", 
+          "d": "l_8_f_4"
+        }
       ]
     },
     {
       "name": "sheet 2",
       "config": {
         "fields": [
-          "field_1",
-          "field_2",
-          "field_3"
+          {
+            "name": "First part",
+            "position": "1",
+            "type": "string",
+            "json_row_key": "1"
+          },
+          {
+            "name": "Second part",
+            "position": "2",
+            "type": "string",
+            "json_row_key": "2"
+          },
+          {
+            "name": "Third part",
+            "position": "3",
+            "type": "string",
+            "json_row_key": "3"
+          }
         ],
         "first_column": "D",
         "header_line": 1
       },
       "data": [
-        ["This will", "start in", ""]
+        {
+          "1": "This will", 
+          "2": "start in", 
+          "3": "column D"
+        }
       ]
     }
   ]
