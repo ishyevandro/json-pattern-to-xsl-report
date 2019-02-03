@@ -43,7 +43,7 @@ The project will be in PHP.
           }
         ],
         "header_line_position": 1,
-        "spreedsheet_position": 1
+        "spreadsheet_position": 1
       },
       "data": [
         {
@@ -120,7 +120,7 @@ The project will be in PHP.
           }
         ],
         "header_line_position": 1,
-        "spreedsheet_position": 2
+        "spreadsheet_position": 2
       },
       "data": [
         {
