@@ -14,8 +14,8 @@ The project will be in PHP.
   "config": {},
   "sheets": [
     {
-      "name": "sheet 1",
       "config": {
+        "name": "sheet 1",
         "fields": [
           {
             "name": "First field",
@@ -97,8 +97,8 @@ The project will be in PHP.
       ]
     },
     {
-      "name": "sheet 2",
       "config": {
+        "name": "sheet 2",
         "fields": [
           {
             "name": "First part",
