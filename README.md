@@ -43,7 +43,8 @@ The project will be in PHP.
           }
         ],
         "first_column": "A",
-        "header_line": 1
+        "header_line_position": 1,
+        "spreedsheet_position": 1
       },
       "data": [
         {
@@ -120,7 +121,8 @@ The project will be in PHP.
           }
         ],
         "first_column": "D",
-        "header_line": 1
+        "header_line_position": 1,
+        "spreedsheet_position": 2
       },
       "data": [
         {
