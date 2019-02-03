@@ -19,30 +19,29 @@ The project will be in PHP.
         "fields": [
           {
             "name": "First field",
-            "position": "1",
+            "column": "A",
             "type": "string",
             "json_row_key": "a"
           },
           {
             "name": "Second field",
-            "position": "2",
+            "column": "B",
             "type": "string",
             "json_row_key": "b"
           },
           {
             "name": "Third field",
-            "position": "3",
+            "column": "C",
             "type": "string",
             "json_row_key": "c"
           },
           {
             "name": "Fourth field",
-            "position": "4",
+            "column": "D",
             "type": "string",
             "json_row_key": "d"
           }
         ],
-        "first_column": "A",
         "header_line_position": 1,
         "spreedsheet_position": 1
       },
@@ -103,24 +102,23 @@ The project will be in PHP.
         "fields": [
           {
             "name": "First part",
-            "position": "1",
+            "column": "D",
             "type": "string",
             "json_row_key": "1"
           },
           {
             "name": "Second part",
-            "position": "2",
+            "column": "E",
             "type": "string",
             "json_row_key": "2"
           },
           {
             "name": "Third part",
-            "position": "3",
+            "column": "F",
             "type": "string",
             "json_row_key": "3"
           }
         ],
-        "first_column": "D",
         "header_line_position": 1,
         "spreedsheet_position": 2
       },
